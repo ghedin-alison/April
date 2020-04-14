@@ -1,0 +1,19 @@
+Criar nova branch
+	Quando está no git bash:
+  		Dentro do ramo(master=)
+			====> git branch nova_branch (isso cria a nova branch)
+			====> git branch (consulta as branches disponíveis)
+			====> git checkout nova_branch (isso acessa a nova branch - muda de master para nova_branch)
+
+			faz alterações.
+
+			====> git status
+			====> git add .
+			====> git commit -m "mensagem de alteração"
+			====> git push
+
+Aparece nova branch no git hub. Essa branch passa por uma revisão(review).
+			====> Merge pull Request <==== (botão)
+
+Agora que já executou o merge, pode deletar a branch
+

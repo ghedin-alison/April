@@ -1,0 +1,27 @@
+GIT e GITHUB
+transferindo arquivos de uma pasta para um projeto no github
+
+- criar projeto no github com o 'read me', copiar o endereço https.
+
+-no git bash acessar a pasta do pc onde estão os documentos que devem subir para o github(cd/../../file.txt)
+		========> git clone (endereço https)
+	esse comando cria a pasta do git na pasta do PC
+
+-copiar arquivos que estão na pasta do PC para a nova pasta do git que foi criada com o comando acima
+
+-com o comando cd acessa a pasta do git. Vai aparecer (master)
+
+		========> git status 
+		========> git add (. ou file.txt)
+		========> git status
+		========> git commit -m "mensagem explicando a alteração"
+		========> git push
+
+Para copiar essa versão do documento para outra pasta, é necessário acessar a outra pasta pelo git e dar comando git clone.
+
+		========> git pull 
+	Esse comando atualiza a pasta do PC com aquilo que estiver no master do github
+
+
+
+

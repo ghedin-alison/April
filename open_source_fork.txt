@@ -1,0 +1,20 @@
+Como trabalhar com projetos open source.
+
+abrir o projeto no github. utilizar o fork. isso faz com que crie no seu repositorio uma copia do projeto.
+pega o endereço no seu repositorio, botão clone.
+
+no git bash utilizar o git clone. Mas não trabalhar no ramo master.
+
+====> git checkout -b novabranch
+ 	Esse comando alem de criar a nova branch também ja faz o acesso.
+
+Altera os arquivos.
+
+
+
+====> git status
+====> git add .
+====> git commit -m "xxxx"
+====> git push origin novabranch (sempre fazer o push com origem na nova branch)
+
+(new pull request) no github.

@@ -15,5 +15,12 @@ Criar nova branch
 Aparece nova branch no git hub. Essa branch passa por uma revisão(review).
 			====> Merge pull Request <==== (botão)
 
-Agora que já executou o merge, pode deletar a branch
+Agora que já executou o merge, pode deletar a branch;
+
+Se houver duas ou mais branch além da master, pode ter confilto. Para verificar no momento de subir usar o comando:
+
+			====> git merge master
+		Se apontar conflito, o arquivo com conflitos vai marcar os pontos de divergência entre os arquivos.
+		Faz-se os acertos e sobre a novar versão da branch.
+
 
